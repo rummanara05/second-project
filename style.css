@@ -48,3 +48,77 @@
 .btn-1:hover, .btn-2:hover{
     color: blue;
 }
+.service-container{
+    height: 100vh;
+    background-image: url("./Assets/footer-bg.png"),linear-gradient(#0a0909ea , #000000ef);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.headline-2{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+ol{
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+.left-serv-container{
+    margin-left: 25px;
+
+}
+.img-author{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    padding-top: 15px;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.author-container{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    
+}
+.icon{
+    width: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.para{
+    width: 50%;
+}
+.box-1{
+    height: 150px;
+    width: 150px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    margin: 2px;
+}
+.first-boxes{
+    display: flex;
+    margin: 2px;
+}
+.second-boxes{
+    display: flex;
+    margin: 2px;
+}
+.right-serv-container{
+margin: 10px;
+}
