@@ -122,3 +122,23 @@ ol{
 .right-serv-container{
 margin: 10px;
 }
+.call-us{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.appointment-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    background-color: rgba(196, 25, 25, 0.827);
+    padding: 20px;
+    border-radius: 10px;
+    gap: 5px;
+    margin-top: -30px;
+}
+.description{
+    
+}
